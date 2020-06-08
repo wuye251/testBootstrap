@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Form 表单 </h2>
+	</div>
+
+	<!-- <form role="form"> -->
+	<!-- form-inline 下所有元素 并行-->
+	<form role="form" class="form-inline">
+		<div class="form-group">
+			<label>用户名</label>
+			<input type="date" name="form-control" placeholder="user">
+			<input type="email" name="form-control" placeholder="email">
+			<input type="password" name="">
+		</div>
+	</form>
+<hr>
+
+	<form role="form">
+		<div class="form-group">
+			<label>选中文件</label>
+			<input type="file" name="">
+			<p class="help-block">选中需要文件上传</p>
+		</div>
+	</form>
+<hr>
+
+	<form role="form" class="form-horizontal">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">email</label>
+			<div class="col-sm-9">
+				<input type="email" class="form-control" name="" placeholder="email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">password</label>
+			<div class="col-sm-9">
+				<input type="password" class="form-control" name="" placeholder="password">
+			</div>
+		
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="">记住密码
+					</label>
+				</div>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-default col-sm-2">登陆</button>
+			</div>
+		</div>
+	</form>
+<hr>
+
+	<form role="form">
+		<input type="text" class="form-control" name="">
+		<textarea class="form-control" rows="5">Hello</textarea>
+
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" name="">
+				男
+			</label>
+		</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" name="">
+				男
+			</label>
+		</div>
+	</form>
+</body>
+</html>
